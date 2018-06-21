@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'rails', '3.1.10'
+gem 'rails', '4.0.0'
 gem 'whenever', :require => false
-gem 'passenger'
+gem 'passenger', '>= 5.3.2'
 gem 'dalli'
 gem 'rb-readline'
 
@@ -17,19 +17,19 @@ gem 'koala', "~> 1.2.0beta"
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 1.0.12'
 
 gem 'icalendar'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
+  gem 'sass-rails', '>= 4.0.0'
+  gem 'coffee-rails', '>= 4.0.0'
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 2.2.0'
 
 gem 'rack'
 gem 'rack-ssl', :require => 'rack/ssl'
