@@ -11,25 +11,25 @@ gem 'rb-readline'
 gem 'mechanize'
 
 # memory logger
-gem 'oink'
+gem 'oink', '>= 0.10.0'
 gem 'xml-simple'
 gem 'koala', "~> 1.2.0beta"
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 0.9.1'
 
 gem 'icalendar'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
+  gem 'sass-rails', '>= 3.1.7'
+  gem 'coffee-rails', '>= 3.1.1'
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 2.2.0'
 
 gem 'rack'
 gem 'rack-ssl', :require => 'rack/ssl'
