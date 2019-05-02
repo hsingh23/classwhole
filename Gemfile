@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rake'
 gem 'rails', '3.1.10'
 gem 'whenever', :require => false
-gem 'passenger'
+gem 'passenger', '>= 5.3.2'
 gem 'dalli'
 gem 'rb-readline'
 
