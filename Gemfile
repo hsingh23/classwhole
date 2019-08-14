@@ -8,7 +8,7 @@ gem 'dalli'
 gem 'rb-readline'
 
 # simulate a web browser
-gem 'mechanize'
+gem 'mechanize', '>= 2.5.1'
 
 # memory logger
 gem 'oink'
