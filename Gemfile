@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'rails', '3.1.10'
+gem 'rails', '5.0.0'
 gem 'whenever', :require => false
-gem 'passenger'
+gem 'passenger', '>= 3.0.19'
 gem 'dalli'
 gem 'rb-readline'
 
@@ -13,26 +13,26 @@ gem 'mechanize'
 # memory logger
 gem 'oink'
 gem 'xml-simple'
-gem 'koala', "~> 1.2.0beta"
+gem 'koala', '~> 1.5.0'
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 1.0.12'
 
 gem 'icalendar'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
+  gem 'sass-rails', '>= 5.0.5'
+  gem 'coffee-rails', '>= 4.1.1'
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 
-gem 'rack'
-gem 'rack-ssl', :require => 'rack/ssl'
+gem 'rack', '>= 2.1.4'
+gem 'rack-ssl', '>= 1.3.2', :require => 'rack/ssl'
 
 # Use unicorn as the web server
 # gem 'unicorn'
