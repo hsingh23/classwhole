@@ -29,7 +29,7 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 
 gem 'rack'
 gem 'rack-ssl', :require => 'rack/ssl'
