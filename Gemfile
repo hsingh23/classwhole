@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'rails', '3.1.10'
+gem 'rails', '4.0.0'
 gem 'whenever', :require => false
 gem 'passenger'
 gem 'dalli'
@@ -11,13 +11,13 @@ gem 'rb-readline'
 gem 'mechanize'
 
 # memory logger
-gem 'oink'
+gem 'oink', '>= 0.10.0'
 gem 'xml-simple'
 gem 'koala', "~> 1.2.0beta"
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 1.0.12'
 
 gem 'icalendar'
 
