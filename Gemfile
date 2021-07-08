@@ -13,7 +13,7 @@ gem 'mechanize'
 # memory logger
 gem 'oink'
 gem 'xml-simple'
-gem 'koala', "~> 1.2.0beta"
+gem 'koala', '~> 1.2.1'
 
 gem 'haml'
 
@@ -49,7 +49,7 @@ end
 
 group :development do
   gem 'guard'
-  gem 'guard-livereload'
+  gem 'guard-livereload', '>= 1.1.3'
   gem 'sqlite3'
 end
 
