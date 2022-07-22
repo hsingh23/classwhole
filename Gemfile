@@ -17,7 +17,7 @@ gem 'koala', "~> 1.2.0beta"
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 0.9.1'
 
 gem 'icalendar'
 
