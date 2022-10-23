@@ -13,11 +13,11 @@ gem 'mechanize'
 # memory logger
 gem 'oink'
 gem 'xml-simple'
-gem 'koala', "~> 1.2.0beta"
+gem 'koala', '~> 1.5.0'
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 0.9.1'
 
 gem 'icalendar'
 
@@ -31,7 +31,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'rack'
+gem 'rack', '>= 3.0.0'
 gem 'rack-ssl', :require => 'rack/ssl'
 
 # Use unicorn as the web server
