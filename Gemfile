@@ -4,7 +4,7 @@ gem 'rake'
 gem 'rails', '3.1.10'
 gem 'whenever', :require => false
 gem 'passenger'
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 gem 'rb-readline'
 
 # simulate a web browser
