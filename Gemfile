@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'rails', '3.1.10'
+gem 'rails', '6.1.7.9'
 gem 'whenever', :require => false
 gem 'passenger'
 gem 'dalli'
@@ -24,7 +24,7 @@ gem 'icalendar'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
+  gem 'sass-rails', '>= 6.0.0'
   gem 'coffee-rails'
   gem 'uglifier'
 end
