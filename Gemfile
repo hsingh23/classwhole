@@ -1,23 +1,23 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'rails', '3.1.10'
+gem 'rails', '7.1.0'
 gem 'whenever', :require => false
-gem 'passenger'
+gem 'passenger', '>= 3.0.21'
 gem 'dalli'
 gem 'rb-readline'
 
 # simulate a web browser
-gem 'mechanize'
+gem 'mechanize', '>= 2.6.0'
 
 # memory logger
-gem 'oink'
+gem 'oink', '>= 0.10.1'
 gem 'xml-simple'
 gem 'koala', "~> 1.2.0beta"
 
 gem 'haml'
 
-gem 'rails3-jquery-autocomplete', '~> 0.9.1' 
+gem 'rails3-jquery-autocomplete', '~> 1.0.12'
 
 gem 'icalendar'
 
@@ -25,14 +25,14 @@ gem 'icalendar'
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
-  gem 'coffee-rails'
+  gem 'coffee-rails', '>= 4.2.2'
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 gem 'rack'
-gem 'rack-ssl', :require => 'rack/ssl'
+gem 'rack-ssl', '>= 1.3.3', :require => 'rack/ssl'
 
 # Use unicorn as the web server
 # gem 'unicorn'
