@@ -13,7 +13,7 @@ gem 'mechanize'
 # memory logger
 gem 'oink'
 gem 'xml-simple'
-gem 'koala', "~> 1.2.0beta"
+gem 'koala', '~> 1.8.0'
 
 gem 'haml'
 
